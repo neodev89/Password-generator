@@ -34,15 +34,6 @@ const makePass = (a, b, c, d, result) => {
     return result1;
 }
 
-const createCF = () => {
-    let Name = Nome.value;
-    let Surname = Cognome.value;
-    let Birthday = Birth.value;
-    let mesi = ['A, B, C, D, E, H, L, M, P, R, S, T'];
-    let surnameLetter = splitWord(Surname);// ci siamo
-    let nameLetter = replaceName(Name);
-}
-
 const splitWord = (word) => {
     let word1 = replaceWord(word);
     word1.forEach((el) => {
